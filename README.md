@@ -26,7 +26,7 @@ It also has an admin API to see all links and how many times they were used.
 ## How to Run
 
 ### 1. Clone the project
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git clone https://github.com/PONNURUNAVYADEEPIKA/url-shortener-mern.git
 cd url-shortener
 2. Backend setup
 cd backend
@@ -58,4 +58,5 @@ It will take you to the original link.
 
 To see all links and visit counts, open:
 http://localhost:5000/api/admin/list
-
+Demo
+GitHub Repo:  https://github.com/PONNURUNAVYADEEPIKA/url-shortener-mern.git
