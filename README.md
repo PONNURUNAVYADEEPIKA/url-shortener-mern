@@ -34,16 +34,17 @@ It also has an admin API to see all links and how many times they were used.
 git clone https://github.com/PONNURUNAVYADEEPIKA/url-shortener-mern.git
 cd url-shortener
 
-### 2. Backend setup
+2. Backend setup
 cd backend
 npm install
 Create a file named .env in the backend folder and add:
+
 MONGO_URI=your_mongodb_connection
 BASE_URL=http://localhost:5000
 PORT=5000
 Run backend:
 npm start
-### 3. Frontend setup
+3. Frontend setup
 cd ../frontend
 npm install
 Create a file named .env in the frontend folder and add:
@@ -61,5 +62,6 @@ It will take you to the original link.
 
 To see all links and visit counts, open:
 http://localhost:5000/api/admin/list
+
 Demo
 GitHub Repo: https://github.com/PONNURUNAVYADEEPIKA/url-shortener-mern.git
